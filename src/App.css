@@ -3,6 +3,11 @@
     display: flex;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .gap-0 {
     gap: 8px;
 }
@@ -15,8 +20,21 @@
     gap: 24px;
 }
 
+.gap-3 {
+    gap: 32px;
+}
+
+
 .jc-spacebetween {
     justify-content: space-between;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
 }
 
 .padding-lr-0 {
@@ -29,3 +47,62 @@
     padding-right: 32px;
 }
 
+.padding-tb-0 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.padding-tb-1 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.padding-tb-2 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.padding-tb-3 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.padding-tb-4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* custom styles */
+
+.side-button {
+    position: absolute;
+    left: 0;
+    padding: 12px 20px;
+}
+
+.side-button-l {
+    background-color: #0E76A8;
+    top: 200px;
+}
+
+.side-button-g {
+    background-color: #000000;
+    top: 250px;
+}
+
+.side-button-e {
+    background-color: #CBC4C4;
+    top: 300px;
+}
+
+.red-button {
+    background-color: #ED1C24;
+}
+
+.greenline-button {
+    border: 1.5px solid #95E06C;
+}
+
+.highlight {
+    color: #95E06C;
+}

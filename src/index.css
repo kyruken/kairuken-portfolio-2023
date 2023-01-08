@@ -13,6 +13,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style: none;
 }
@@ -23,13 +27,35 @@ ul, li {
 }
 
 h1 {
+  font-size: 48px;
   font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 32px;
 }
 
 h2 {
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 16px;
 }
 
 h3 {
   font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.f-weight-light {
+  font-weight: 300;
+}
+
+button {
+  background-color: #0c1445;
+  font-family: "Noto Sans", Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 32px;
+  color: #fff;
+  padding: 12px 48px;
+  letter-spacing: 1px;
 }

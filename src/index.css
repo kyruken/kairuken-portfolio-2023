@@ -26,23 +26,30 @@ ul, li {
   padding: 0;
 }
 
+p {
+  font-size: calc(12px + 0.5vw);
+
+}
+
 h1 {
-  font-size: 48px;
+  font-size: calc(1rem + 3.2vw);
   font-weight: 600;
   letter-spacing: 1px;
-  padding-bottom: 32px;
+  margin: 20px 0;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: calc(10px + 2vw);
   font-weight: 600;
   letter-spacing: 1px;
-  padding-bottom: 16px;
+  margin: 16px 0;
 }
 
 h3 {
+  font-size: calc(3.2vw);
   font-weight: 400;
   letter-spacing: 1px;
+  margin: 12px 0;
 }
 
 .f-weight-light {
@@ -58,4 +65,19 @@ button {
   color: #fff;
   padding: 12px 48px;
   letter-spacing: 1px;
+}
+
+.border {
+  border: 1px solid grey;
+}
+
+.line1, .line2 {
+  border-bottom: 3.5px solid white;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.line3 {
+  border-bottom: 3.5px solid white;
+  border-radius: 10px;
 }

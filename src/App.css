@@ -9,7 +9,7 @@
 }
 
 .gap-0 {
-    gap: 8px;
+    gap: 6px;
 }
 
 .gap-1 {
@@ -45,6 +45,16 @@
 .padding-lr-1 {
     padding-left: 32px;
     padding-right: 32px;
+}
+
+.padding-lr-2 {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.padding-lr-3 {
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .padding-tb-0 {
@@ -105,4 +115,24 @@
 
 .highlight {
     color: #95E06C;
+}
+
+.hamburger-menu {
+    display: none;
+    width: 25px;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 9999px;
+    }
+
+    nav h2 {
+        font-size: 16px;
+    }
+    nav .hamburger-menu {
+        display: block;
+    }
 }

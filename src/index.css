@@ -13,6 +13,9 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* body {
+  padding: 25px 100px;
+} */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
@@ -27,7 +30,8 @@ ul, li {
 }
 
 p {
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(9px + 0.5vw);
+  width: 600px;
 
 }
 
@@ -46,7 +50,7 @@ h2 {
 }
 
 h3 {
-  font-size: calc(3.2vw);
+  font-size: calc(5px + 2vw);
   font-weight: 400;
   letter-spacing: 1px;
   margin: 12px 0;

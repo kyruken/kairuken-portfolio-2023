@@ -1,4 +1,5 @@
 import Project from './project'
+import ReverseProject from './reverseproject'
 import OtherProjects from './otherprojects'
 export default function MyProjects() {
     return (
@@ -6,7 +7,7 @@ export default function MyProjects() {
             <h2>My Projects</h2>
 
             <Project />
-            <Project />
+            <ReverseProject />
             <Project />
 
             <OtherProjects />

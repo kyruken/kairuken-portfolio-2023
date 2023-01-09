@@ -1,7 +1,7 @@
 
 export default function Navbar() {
     return (
-        <nav className='flex jc-spacebetween ai-center padding-lr-3'>
+        <nav className='flex jc-spacebetween ai-center'>
             <h2>Kyle Arenas</h2>
             <ul className='flex gap-2'>
                 <li>Home</li>

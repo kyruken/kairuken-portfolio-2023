@@ -1,7 +1,8 @@
 
-export default function Project() {
+export default function ReverseProject() {
     return (
-        <article className="content-container ai-center">
+        <article className="content-container content-reverse ai-center">
+            <img alt='img about project'></img>
             <div className="flex-column">
                 <h3>Project Title</h3>
                 <p>
@@ -15,7 +16,6 @@ export default function Project() {
                     <button>Code</button>
                 </div>
             </div>
-            <img alt='img about project'></img>
         </article>
     )
 }

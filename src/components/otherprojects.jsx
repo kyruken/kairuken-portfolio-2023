@@ -3,7 +3,7 @@ export default function OtherProjects() {
     return (
         <section>
             <h2>Other Projects</h2>
-            <div>
+            <div className="otherprojects-container padding-1">
                 <MiniProject />
                 <MiniProject />
                 <MiniProject />

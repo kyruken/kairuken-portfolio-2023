@@ -41,6 +41,13 @@
     align-items: center;
 }
 
+.padding-0 {
+    padding: 16px;
+}
+
+.padding-1 {
+    padding: 32px;
+}
 .padding-lr-0 {
     padding-left: 16px;
     padding-right: 16px;
@@ -136,6 +143,21 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.otherprojects-container {
+    background-color: #0E76A8;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 650px));
+    gap: 24px;
+    align-items: center;
+    justify-content: center;    
+    }
+
+.miniproject-container {
+    background-color: #0C1445;
+    border-radius: 20px;
+    max-width: 600px;
+}
 @media (max-width: 1000px) {
     nav ul {
         position: absolute;
@@ -150,7 +172,7 @@
         display: block;
     }
 
-    h2,h3 {
+    h2,h3, h4 {
         text-align: center;
         
     }

@@ -61,6 +61,10 @@
     justify-content: center;
 }
 
+.jc-flexend {
+    justify-content: flex-end;
+}
+
 .ai-center {
     align-items: center;
 }
@@ -185,11 +189,6 @@
     max-width: 600px;
 }
 
-.myskills {
-    display: flex;
-
-}
-
 .skill-container {
     border-radius: 10px;
     width: 200px;
@@ -197,6 +196,14 @@
     padding: 10px 25px;
     text-align: center;
 }
+
+.contact-container {
+    background-color: #829191;
+    border-radius: 24px;
+    min-width: 275px;
+    min-height: 200px;
+}
+
 
 /* ^ specific container styles ^ */
 
@@ -207,7 +214,7 @@
     nav ul {
         position: absolute;
         right: 0;
-        top: 9999px;
+        top: -9999px;
     }
 
     nav h2 {
@@ -231,9 +238,9 @@
     .content-reverse {
         flex-direction: column;
     }
-    
-    .myskills {
-        flex-direction: column;
+
+    .gap-5 {
+        gap: 16px;
     }
 
 }

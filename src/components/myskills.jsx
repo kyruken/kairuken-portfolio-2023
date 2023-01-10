@@ -3,7 +3,7 @@ export default function MySkills() {
     return (
         <section className="bg-secondary padding-tb-4">
             <h2>My Skills</h2>
-            <div className="myskills jc-center ai-center gap-5">
+            <div className="flex content-reverse jc-center ai-center gap-5">
                 <div className="bg-primary skill-container">
                     <h3>Front-end</h3>
                     <ul>

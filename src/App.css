@@ -1,4 +1,21 @@
 
+:root {
+    --primary-color: #0C1445;
+    --secondary-color: #007EA7;
+    --primary-text-color: #fff;
+    --secondary-text-color: #95E06C;
+    --primary-component-color: #ED1C24;
+    --secondary-component-color: #95E06C;
+}
+/* General class styles */
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
 .flex {
     display: flex;
 }
@@ -24,6 +41,13 @@
     gap: 32px;
 }
 
+.gap-4 {
+    gap: 64px;
+}
+
+.gap-5 {
+    gap: 128px;
+}
 
 .jc-spacebetween {
     justify-content: space-between;
@@ -93,7 +117,9 @@
     padding-bottom: 80px;
 }
 
-/* custom styles */
+/* ^ General class styles ^ */
+
+/* custom component styles */
 
 .side-button {
     position: absolute;
@@ -117,15 +143,15 @@
 }
 
 .red-button {
-    background-color: #ED1C24;
+    background-color: var(--primary-component-color);
 }
 
 .greenline-button {
-    border: 1.5px solid #95E06C;
+    border: 1.5px solid var(--secondary-component-color);
 }
 
 .highlight {
-    color: #95E06C;
+    color: var(--secondary-text-color);
 }
 
 .hamburger-menu {
@@ -133,10 +159,10 @@
     width: 25px;
 }
 
+/* ^ custom component styles ^ */
 
 
-
-/* specific styles */
+/* specific container styles */
 
 .content-container {
     display: flex;
@@ -145,7 +171,7 @@
 }
 
 .otherprojects-container {
-    background-color: #0E76A8;
+    background-color: var(--secondary-color);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 650px));
     gap: 24px;
@@ -154,10 +180,29 @@
     }
 
 .miniproject-container {
-    background-color: #0C1445;
+    background-color: var(--primary-color);
     border-radius: 20px;
     max-width: 600px;
 }
+
+.myskills {
+    display: flex;
+
+}
+
+.skill-container {
+    border-radius: 10px;
+    width: 200px;
+    height: 275px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+/* ^ specific container styles ^ */
+
+
+/* Media queries */
+
 @media (max-width: 1000px) {
     nav ul {
         position: absolute;
@@ -187,5 +232,8 @@
         flex-direction: column;
     }
     
+    .myskills {
+        flex-direction: column;
+    }
 
 }

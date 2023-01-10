@@ -13,6 +13,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 /* body {
   padding: 25px 100px;
 } */
@@ -29,6 +34,9 @@ ul, li {
   padding: 0;
 }
 
+li {
+  margin-bottom: 16px;
+}
 p {
   font-size: calc(8px + 0.5vw);
 
@@ -52,7 +60,6 @@ h3 {
   font-size: calc(5px + 2vw);
   font-weight: 400;
   letter-spacing: 1px;
-  margin: 12px 0;
 }
 
 h3 {

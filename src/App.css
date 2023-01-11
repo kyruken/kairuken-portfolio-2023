@@ -77,8 +77,8 @@
     padding: 32px;
 }
 .padding-lr-0 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .padding-lr-1 {
@@ -200,6 +200,10 @@
 
 /* specific container styles */
 
+a.contact-container {
+    color: #000;
+  }
+
 .paragraph-container {
     max-width: 700px;
 }
@@ -210,9 +214,8 @@
 }
 
 .otherprojects-container {
-    background-color: var(--secondary-color);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 650px));
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
     gap: 24px;
     align-items: center;
     justify-content: center;    
@@ -221,7 +224,6 @@
 .miniproject-container {
     background-color: var(--primary-color);
     border-radius: 20px;
-    max-width: 600px;
 }
 
 .skill-container {
@@ -233,7 +235,7 @@
 }
 
 .contact-container {
-    background-color: #829191;
+    background-color: #CBC4C4;
     border-radius: 24px;
     min-width: 275px;
     min-height: 200px;

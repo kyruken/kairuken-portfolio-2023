@@ -8,9 +8,9 @@ export default function Hero() {
                 <button className="red-button">Projects</button>
                 <button className="greenline-button">About me</button>
             </div>
-            <div className='side-button side-button-l'>L</div>
-            <div className='side-button side-button-g'>G</div>
-            <div className='side-button side-button-e'>E</div>
+            <img className='side-button side-button-l' src="../src/assets/linkedin.png" width="50"></img>
+            <img className='side-button side-button-g' src="../src/assets/github.png" width="50"></img>
+            <img className='side-button side-button-e' src="../src/assets/email.png" width="50"></img>
         </header>
     )
 }

@@ -128,17 +128,17 @@
 .side-button {
     position: absolute;
     left: 0;
-    padding: 12px 20px;
+    padding: 5px 10px;
 }
 
 .side-button-l {
-    background-color: #0E76A8;
-    top: 200px;
+    background-color: #fff;
+    top: 190px;
 }
 
 .side-button-g {
     background-color: #000000;
-    top: 250px;
+    top: 240px;
 }
 
 .side-button-e {

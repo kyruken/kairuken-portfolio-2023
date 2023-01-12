@@ -10,8 +10,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
+      <div className='padding-lr-4 padding-tb-6'>
+        <Navbar />
+        <Hero />
+      </div>
       <AboutMe />
       <MyProjects />
       <MySkills />

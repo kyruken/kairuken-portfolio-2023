@@ -96,6 +96,11 @@
     padding-right: 64px;
 }
 
+.padding-lr-4 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .padding-tb-0 {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -119,6 +124,16 @@
 .padding-tb-4 {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.padding-tb-5 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.padding-tb-6 {
+    padding-top: 126px;
+    padding-bottom: 126px;
 }
 
 .margin-bottom-0 {

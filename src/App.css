@@ -4,7 +4,7 @@
     --secondary-color: #007EA7;
     --primary-text-color: #fff;
     --secondary-text-color: #95E06C;
-    --primary-component-color: #ED1C24;
+    --primary-component-color: #C42021;
     --secondary-component-color: #95E06C;
 }
 /* General class styles */
@@ -132,8 +132,8 @@
 }
 
 .padding-tb-6 {
-    padding-top: 126px;
-    padding-bottom: 126px;
+    padding-top: 164px;
+    padding-bottom: 164px;
 }
 
 .margin-bottom-0 {
@@ -174,23 +174,32 @@
 
 .side-button {
     position: absolute;
-    left: 0;
-    padding: 5px 10px;
+    left: -100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 125px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.side-button:hover {
+    transform: translateX(100px);
 }
 
 .side-button-l {
     background-color: #fff;
-    top: 190px;
+    top: 417px;
 }
+
 
 .side-button-g {
     background-color: #000000;
-    top: 240px;
+    top: 480px;
 }
 
 .side-button-e {
     background-color: #CBC4C4;
-    top: 300px;
+    top: 550px;
 }
 
 .red-button {

@@ -1,7 +1,7 @@
 
 export default function AboutMe() {
     return (
-        <section className='bg-secondary padding-lr-4 padding-tb-5' id='aboutme'>
+        <section className='bg-secondary padding-lr-4 padding-tb-6' id='aboutme'>
             <h2>About me</h2>
             <div className='content-container'>
                 <div className='paragraph-container'>

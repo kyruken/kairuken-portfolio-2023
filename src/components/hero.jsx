@@ -1,7 +1,7 @@
 
 export default function Hero() {
     return (
-        <header className='flex-column ai-center jc-center padding-tb-4' id='home'>
+        <header className='flex-column ai-center jc-center padding-lr-4 padding-tb-6' id='home'>
             <h1 className="f-weight-light">Hi, I'm <span className='highlight'>Kyle.</span></h1>
             <h2 className="f-weight-light padding-tb-1">I'm a <span className="highlight">full stack developer.</span></h2>
             <div className="flex gap-3">

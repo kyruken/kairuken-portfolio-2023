@@ -1,7 +1,7 @@
 
 export default function MySkills() {
     return (
-        <section className="bg-secondary padding-tb-4" id='skills'>
+        <section className="bg-secondary padding-tb-4 padding-lr-4" id='skills'>
             <h2>My Skills</h2>
             <div className="flex content-reverse jc-center ai-center gap-5">
                 <div className="bg-primary skill-container">

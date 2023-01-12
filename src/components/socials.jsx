@@ -1,7 +1,7 @@
 
 export default function Socials() {
     return (
-        <section>
+        <section className='padding-lr-4 padding-tb-5'>
             <h2>Socials/Contact</h2>
             <div className='flex content-reverse ai-center jc-center gap-5'>
                 <a href='/' className="flex-column ai-center jc-flexend contact-container padding-tb-0">

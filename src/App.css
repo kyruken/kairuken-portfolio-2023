@@ -4,6 +4,7 @@
     --secondary-color: #007EA7;
     --primary-text-color: #fff;
     --secondary-text-color: #95E06C;
+    --third-text-color: #042A2B;
     --primary-component-color: #C42021;
     --secondary-component-color: #95E06C;
 }
@@ -99,6 +100,44 @@
 .padding-lr-4 {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.padding-top-0 {
+    padding-top: 16px;
+}
+
+.padding-top-1 {
+    padding-top: 32px;
+}
+
+.padding-top-2 {
+    padding-top: 64px;
+
+}
+
+.padding-top-3 {
+    padding-top: 96px;
+}
+
+.padding-bottom-0 {
+    padding-top: 16px;
+}
+
+.padding-bottom-1 {
+    padding-bottom: 32px;
+}
+
+.padding-bottom-2 {
+    padding-bottom: 48px;
+
+}
+
+.padding-bottom-3 {
+    padding-bottom: 128px;
+}
+
+.padding-bottom-4 {
+    padding-bottom: 256px;
 }
 
 .padding-tb-0 {
@@ -254,15 +293,25 @@ a.contact-container {
     border-radius: 10px;
     width: 200px;
     height: 275px;
-    padding: 10px 25px;
+    padding: 50px 50px;
     text-align: center;
 }
 
-.contact-container {
-    background-color: #CBC4C4;
+.socials-container {
     border-radius: 24px;
-    min-width: 275px;
-    min-height: 200px;
+}
+
+.socials-container a {
+    color: var(--secondary-text-color);
+}
+.icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-component-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
 }
 
 

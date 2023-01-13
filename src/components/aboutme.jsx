@@ -6,10 +6,10 @@ export default function AboutMe() {
             <div className='content-container'>
                 <div className='paragraph-container'>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        At a young age, I’ve always appreciated the idea of enhancing my skills at whatever I pursued. 
+                        I stumbled upon web development, and I fell in love with the creative aspects and technical application. 
+                        Web development has enough complexity to keep me intrigued at every corner, but it also allows me to have creative input into what I would like to build. 
+                        As a lifelong learner and believer of a growth mindset, I will constantly be improving my coding abilities in order to become a better programmer each day.
                     </p>
                 </div>
                 <img alt='Kyle Arenas coding'></img>

@@ -241,8 +241,17 @@
     top: 550px;
 }
 
-.red-button {
+.red-button, .red-button-mini{
     background-color: var(--primary-component-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-button-mini {
+    width: 50px;
+    border-radius: 5px;
+    
 }
 
 .greenline-button {

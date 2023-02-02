@@ -36,19 +36,6 @@ export default function Socials() {
                     <span>Github: </span>
                     <a href='https://github.com/kyruken'>https://github.com/kyruken</a>
                 </div>
-
-                {/* <a href='/' className="flex-column ai-center jc-flexend contact-container padding-tb-0">
-                    <img className='margin-left-1' src='../src/assets/linkedin.png' alt='linkedin icon' width='175'></img>
-                    <h3>Linkedin</h3>
-                </a>
-                <a href='/' className="flex-column ai-center jc-flexend contact-container padding-tb-0">
-                    <img src='../src/assets/github.png' alt='github icon' width='150'></img>
-                    <h3>Github</h3>
-                </a>
-                <a href='/' className="flex-column ai-center jc-flexend contact-container padding-tb-0">
-                    <img src='../src/assets/email.png' alt='email icon' width='150'></img>
-                    <h3>Email</h3>
-                </a> */}
             </div>
         </section>
     )

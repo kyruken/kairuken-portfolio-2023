@@ -1,4 +1,4 @@
-import frontend from '../assets/frontend.png'
+
 export default function AboutMe() {
     return (
         <section className='bg-secondary padding-lr-4 padding-tb-6' id='aboutme'>

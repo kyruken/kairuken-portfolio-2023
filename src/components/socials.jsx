@@ -1,7 +1,7 @@
 
 export default function Socials() {
     return (
-        <section className='padding-lr-4 padding-tb-5'>
+        <section className='socials padding-lr-3 padding-tb-5'>
             <h2>Socials/Contact</h2>
             <div className='flex-column gap-3 socials-container'>
                 <div className="flex ai-center gap-0">

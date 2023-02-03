@@ -6,18 +6,18 @@ import stringgen from "../assets/projecticons/stringgen.png"
 export default function OtherProjects() {
     return (
         <section className="bg-secondary padding-lr-4 padding-tb-5">
-            <h2>Other Projects</h2>
+            <h2 className="ta-center">Other Projects</h2>
             <div className="otherprojects-container padding-1">
                 <MiniProject 
                 title='Gigagamers'
-                description='Gigagamers is a backend application where users that sign up to post onto an online board.'
+                description='Gigagamers is a backend application where users can sign up, log in, and post onto a message board.'
                 image={gigagamers}
                 demo=''
                 code='https://github.com/kyruken/gigagamers'
                 />
                 <MiniProject
                 title='Koin'
-                description='Koin is a frontend application that pulls from Coinlayer API, and the application takes coin data to display to users.' 
+                description='Koin is a frontend application that pulls from Coinlayer API and takes coin data to display to users.' 
                 image={koin}
                 demo=''
                 code='https://github.com/kyruken/Koin'

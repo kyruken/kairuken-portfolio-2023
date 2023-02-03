@@ -5,7 +5,7 @@ import vginvapp from '../assets/videos/vginvapp.mp4'
 import blog from '../assets/videos/blog.mp4'
 export default function MyProjects() {
     return (
-        <section className='padding-lr-4 padding-tb-5' id='projects'>
+        <section className='flex-column ai-center jc-center padding-lr-4 padding-tb-5' id='projects'>
             <h2 className='ta-center'>My Projects</h2>
 
             <Project

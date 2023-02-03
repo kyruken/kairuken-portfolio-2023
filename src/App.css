@@ -17,6 +17,7 @@
 .bg-secondary {
     background-color: var(--secondary-color);
 }
+
 .flex {
     display: flex;
 }
@@ -311,11 +312,26 @@ a.contact-container {
 }
 
 .skill-container {
-    min-width: 325px;
-    height: 275px;
+    min-width: 200px;
+    min-height: 400px;
     padding: 50px 50px;
     text-align: center;
 }
+
+.skill-container li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(12px + 0.5vw); 
+}
+.skill-container svg {
+    margin-left: 4px;
+}
+
+.skill-container p {
+    font-size: calc(12px + 0.5vw);
+}
+
 .skill-container:nth-child(2n) {
     border-right: 1px solid var(--secondary-color);
     border-left: 1px solid var(--secondary-color);
@@ -337,6 +353,11 @@ a.contact-container {
 .socials-container a {
     color: var(--secondary-text-color);
 }
+
+.socials-container span, 
+.socials-container a  {
+    font-size: calc(14px + 0.5vw);
+}
 .icon-circle {
     display: flex;
     justify-content: center;
@@ -347,12 +368,8 @@ a.contact-container {
     border-radius: 100px;
 }
 
-.skills-container.icon-circle {
-    width: 125px;
-    height: 125px;
-}
 .video-container {
-    min-width: 400px;
+    min-width: 350px;
     max-width: 68%;
 }
 
@@ -361,7 +378,7 @@ a.contact-container {
 
 /* Media queries */
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     nav ul {
         position: absolute;
         right: 0;
@@ -385,6 +402,12 @@ a.contact-container {
         justify-content: center;
         align-items: space-between;
     }
+
+    .skill-container {
+        height: auto;
+        margin-bottom: 32px;
+        border-radius: 20px;
+    }
     
     .content-reverse {
         flex-direction: column;
@@ -394,4 +417,11 @@ a.contact-container {
         gap: 16px;
     }
 
+    .otherprojects-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));  
+        }
+    
+    .socials {
+        padding: 25px 0px;
+    }
 }

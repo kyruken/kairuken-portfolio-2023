@@ -6,18 +6,12 @@ export default function AboutMe() {
             <div className='content-container jc-center'>
                 <div className='paragraph-container padding-bottom-1'>
                     <p className="ta-center">
-                    From being a gamer, video editor, lifter, to now programmer, I have an overall love for learning.
-                        I love web development for it's creative expression while also having complex technicality. As a lifelong
-                        learner, I will continue to grow as time goes on.
-                        {/* At a young age, I’ve always appreciated the idea of enhancing my skills at whatever I pursued. 
-                        I stumbled upon web development, and I fell in love with the creative aspects and technical application. 
-                        Web development has enough complexity to keep me intrigued at every corner, but it also allows me to have creative input into what I would like to build. 
-                        As a lifelong learner and believer of a growth mindset, I will constantly be improving my coding abilities in order to become a better programmer each day. */}
+                    As someone who loves learning and gaining new skills, I’ve trained myself to be a lifelong learner and self taught developer. I have built up my programming capabilities so that I can become a full stack developer.
                     </p>
                 </div>
             </div>
             <div className="flex content-reverse jc-center ai-center">
-                <div className="bg-primary skill-container flex-column ai-center">
+                <div className="bg-primary skill-container flex-column ai-center" id="skills">
                     <h3>Front-end</h3>
                     <p className="margin-bottom-2">I love creating UI's and creating front-end experiences.</p>
                     <ul>

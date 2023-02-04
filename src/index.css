@@ -59,22 +59,22 @@ nav a {
 }
 
 h1 {
-  font-size: calc(1rem + 3.2vw);
+  font-size: calc(36px + 1vw);
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
 
 h2 {
-  font-size: calc(10px + 2vw);
+  font-size: calc(24px + 1vw);
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 56px;
 }
 
 h3 {
-  font-size: calc(10px + 2vw);
-  font-weight: 400;
+  font-size: calc(16px + 1vw);
+  font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -91,13 +91,14 @@ h4 {
 
 button {
   background-color: #0c1445;
-  font-family: "Noto Sans", Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Sen", Inter, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 600;
   border: none;
   border-radius: 32px;
   color: #fff;
   padding: 12px 48px;
   letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 video {
@@ -106,15 +107,4 @@ video {
 
 .border {
   border: 1px solid grey;
-}
-
-.line1, .line2 {
-  border-bottom: 3.5px solid white;
-  border-radius: 10px;
-  margin-bottom: 5px;
-}
-
-.line3 {
-  border-bottom: 3.5px solid white;
-  border-radius: 10px;
 }

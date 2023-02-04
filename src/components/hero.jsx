@@ -8,9 +8,9 @@ export default function Hero() {
                 <a href="#projects"><button className="red-button">Projects</button></a>
                 <a href="#aboutme"><button className="greenline-button">About me</button></a>
             </div>
-            <a target="_blank" href="https://www.linkedin.com/in/kyle-arenas-49224a22a/"><img className='side-button side-button-l' src="../src/assets/icons/linkedin.png" width="50"></img></a>
-            <a target="_blank" href="https://github.com/kyruken"><img className='side-button side-button-g' src="../src/assets/icons/github.png" width="50"></img></a>
-            <a href="mailto:kairukencode@gmail.com"><img className='side-button side-button-e' src="../src/assets/icons/email.png" width="50"></img></a>
+            <a target="_blank" href="https://www.linkedin.com/in/kyle-arenas-49224a22a/"><img className='side-button side-button-l' src="https://i.imgur.com/4Cv8yCu.png" width="50"></img></a>
+            <a target="_blank" href="https://github.com/kyruken"><img className='side-button side-button-g' src="https://i.imgur.com/PUpTGbx.png" width="50"></img></a>
+            <a href="mailto:kairukencode@gmail.com"><img className='side-button side-button-e' src="https://i.imgur.com/BDrOKLD.png" width="50"></img></a>
         </header>
     )
 }
